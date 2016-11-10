@@ -1,0 +1,22 @@
+{
+  "name": "git-branch-name",
+  "version": "0.0.1",
+  "description": "A simple command line application for generating pretty git branch names.",
+  "bin": {
+    "git-branch-name": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkwatson/git-branch-name"
+  },
+  "keywords": [
+    "git"
+  ],
+  "dependencies": {
+    "inquirer": "1.2.2",
+    "clipboard": "1.5.15",
+    "username": "2.2.2"
+  },
+  "preferGlobal": true,
+  "license": "MIT"
+}

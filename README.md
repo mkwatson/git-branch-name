@@ -2,9 +2,10 @@
 Generate git branch names
 
 ## Install
-
-    npm install -g https://github.com/mkwatson/git-branch-name
-
+```bash
+npm install -g https://github.com/mkwatson/git-branch-name
+```
 ## Run
-
-    git-branch-name
+```bash
+git-branch-name
+```

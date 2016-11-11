@@ -1,8 +1,10 @@
 #!/usr/bin/env node
+
 'use strict';
 
 const inquirer = require('inquirer');
 const username = require('username');
+const chalk = require('chalk');
 
 var questions = [{
     name: 'type',
@@ -70,7 +72,9 @@ function main() {
             .filter(v => v != '');
         let branchName = arr.join('/')
 
-        console.log('\ngit checkout -b ' + branchName);
+        console.log(chalk.green('>') + ' ' +
+            chalk.bold('Run this command to switch branches:'));
+        console.log('    git checkout -b ' + branchName);
     });
 }
 

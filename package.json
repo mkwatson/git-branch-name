@@ -5,6 +5,9 @@
   "bin": {
     "git-branch-name": "./index.js"
   },
+  "scripts": {
+    "postinstall": "chmod a+x $(npm config get prefix)/bin/git-branch-name"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mkwatson/git-branch-name"
